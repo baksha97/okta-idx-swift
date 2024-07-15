@@ -17,8 +17,8 @@ var package = Package(
         .library(name: "OktaIdx", targets: ["OktaIdx"])
     ],
     dependencies: [
-        .package(url: "https://github.com/okta/okta-mobile-swift",
-                 from: "1.7.0"),
+        .package(url: "https://github.com/baksha97/okta-mobile-swift",
+                 branch: "master"),
         .package(url: "https://github.com/apple/swift-docc-plugin",
                  from: "1.0.0")
     ],
